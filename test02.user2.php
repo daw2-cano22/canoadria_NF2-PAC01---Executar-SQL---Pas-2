@@ -36,10 +36,7 @@
         $objUser->Save();
         $objUserB->Save();
         $objUserC->Save();
-        $objUser->deleteuser();
-        $objUserB->deleteuser();
-        $objUserC->deleteuser();
-
+   
         print "ID in database is " . $objUser->getID() . "<br />";
         print "ID in database is " . $objUserB->getID() . "<br />";
         print "ID in database is " . $objUserC->getID() . "<br />";
